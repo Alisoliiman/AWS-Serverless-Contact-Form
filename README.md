@@ -299,8 +299,7 @@ Search **SES**  → **Create Identity**
 3. Open the endpoint URL in your browser:
    ```text
    http://contact-frontend-YOUR_ACCOUNT_ID.s3-website.us-east-2.amazonaws.com
-
-```
+   ```
 
 **Your serverless contact form is now live and fully operational on the internet!**
 
@@ -318,7 +317,6 @@ In Lambda → **Test** tab → paste this event payload and click **Test**:
   "path": "/contact",
   "body": "{\"name\":\"Ali Soliman\",\"email\":\"test@example.com\",\"subject\":\"AWS Test\",\"message\":\"This is a direct test message for Lambda execution.\"}"
 }
-
 ```
 
 **Expected response:**
@@ -328,7 +326,6 @@ In Lambda → **Test** tab → paste this event payload and click **Test**:
   "statusCode": 200,
   "body": "{\"message_id\": \"uuid-here\", \"message\": \"Your message has been sent successfully!\"}"
 }
-
 ```
 
 ### Test the full flow
