@@ -1,0 +1,142 @@
+/*=================== Public Base Styles ===================*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/*=================== Main Layout Card ===================*/
+.contact-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 450px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.subtitle {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/*=================== Form Control Fields ===================*/
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #34495e;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid #dcdde1;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+/*=================== Honeypot Field Protection ===================*/
+.honeypot-field {
+    display: none !important;
+}
+
+/*=================== Button Actions & States ===================*/
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+/*=================== Response Status Styling ===================*/
+.response-message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 0.9rem;
+    display: none;
+}
+
+.response-message.success {
+    display: block !important;
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.response-message.error {
+    display: block !important;
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/*=================== Footer Component ===================*/
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 0 0;
+    margin-top: 25px;
+    color: #7f8c8d;
+    font-size: 0.85rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
