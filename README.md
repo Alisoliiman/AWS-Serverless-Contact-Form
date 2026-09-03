@@ -224,12 +224,12 @@ Search **SES**  → **Create Identity**
 23. **Stage name:** `prod`
 24. Click **Deploy**
 25. **Copy and save the Invoke URL** — looks like:
-    
     ```
     https://xxxxxxxxxx.execute-api.us-east-2.amazonaws.com/prod
     ```
 
 ---
+
 ### Step 6 — Update Frontend Config
 
 1. Open `frontend/script.js` in VSCode
