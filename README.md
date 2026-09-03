@@ -40,8 +40,8 @@ AWS Serverless Contact Form is a cloud-native, fully serverless application for 
 ---
 
 ## 🏗️ Architecture
-
-![AWS Architecture Diagram](images/Contact%20Form%20AWS.png)---
+![AWS Architecture Diagram](images/Contact%20Form%20AWS.png)
+---
 
 ## ☁️ AWS Services
 
